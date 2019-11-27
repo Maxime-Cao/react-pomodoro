@@ -1,9 +1,6 @@
-import "../scss/app.scss";
-
 import React from "react";
 import ReactDOM from "react-dom";
 
-import HelloMessage from "../components/hello-message";
+import App from "./components/App";
 
-const App = document.querySelector("#app");
-ReactDOM.render(< HelloMessage name={"Maxime"} />, App);
+ReactDOM.render(< App />, document.getElementById("app"));
