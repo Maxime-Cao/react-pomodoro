@@ -1,0 +1,16 @@
+import React from "react";
+
+class HelloMessage extends React.Component {
+    render() {
+        return (
+            <div className={
+                "container"
+            }>
+                <h1> {
+                    "Hello "} {this.props.name}
+                </h1> </div>
+        );
+    }
+}
+
+export default HelloMessage;
