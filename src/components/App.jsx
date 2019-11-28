@@ -94,7 +94,7 @@ class App extends React.Component {
 
         return (
             <main>
-                <h2>Your Pomodoro</h2>
+                <h2>Pomodoro's <span id="pomodoro">clock</span></h2>
                 <section className="interval-length-container">
                     <BreakInterval
                         isPlay={this.state.isPlay}

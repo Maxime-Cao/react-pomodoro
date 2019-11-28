@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
+
 body {
-    background-color: rgb(145, 137, 199);
+    background-color: rgb(5, 21, 75);
+    color: white;
 
     main {
         display: flex;
@@ -9,6 +12,7 @@ body {
         align-items: center;
 
         h2 {
+            font-family: 'Lobster Two', cursive;
             font-size: 4rem;
             font-weight: 400;
         }
@@ -38,12 +42,14 @@ body {
         }
 
         .timer-container {
-            border: 2px solid #263646;
+            border: 2px solid #515adb;
+            color: black;
+            background-color: white;
             margin-top: 40px;
             border-radius: 25px;
             width: 250px;
             text-align: center;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.50);
+            box-shadow: 0 2px 4px #515adb;
             padding: 10px;
 
             .timer {
@@ -57,19 +63,20 @@ body {
 button {
     margin: 0 10px;
     height: 25px;
-    background-color: #263646;
+    background-color: #505bf7;
     border: none;
     outline: none;
     cursor: pointer;
     color: #eee;
     width: 70px;
-    border: 2px solid #263646;
+    border: 1px solid white;
     border-radius: 4px;
 }
 
 button:hover {
     color: #263646;
     background-color: white;
+    border: 1px solid #515adb;
 }
 
 .timer-actions {
@@ -79,4 +86,8 @@ button:hover {
 
 button:disabled {
     cursor: not-allowed;
+}
+
+#pomodoro {
+    color: #515adb;
 }
